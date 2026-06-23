@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-19T23:07:44 IST" name="Suite" finished-at="2026-06-19T23:08:04 IST" duration-ms="19914">
+    <groups>
+    </groups>
+    <test started-at="2026-06-19T23:07:44 IST" name="Test" finished-at="2026-06-19T23:08:04 IST" duration-ms="19914">
+      <class name="testScripts.ManageNewsTest">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:44 IST" name="browserLaunch" finished-at="2026-06-19T23:07:47 IST" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="verifyWhetherAdminIsAbleToClickAddNewButtonOnManageNewsPage()[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:47 IST" name="verifyWhetherAdminIsAbleToClickAddNewButtonOnManageNewsPage" description="Validating the User can able to Add new News" finished-at="2026-06-19T23:07:52 IST" duration-ms="4892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherAdminIsAbleToClickAddNewButtonOnManageNewsPage -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:52 IST" name="browserClose" finished-at="2026-06-19T23:07:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherAdminIsAbleToClickAddNewButtonOnManageNewsPage status=SUCCESS method=ManageNewsTest.verifyWhetherAdminIsAbleToClickAddNewButtonOnManageNewsPage()[pri:0, instance:testScripts.ManageNewsTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:52 IST" name="browserLaunch" finished-at="2026-06-19T23:07:54 IST" duration-ms="2366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="verifyWhetherUserIsAbleToClickRestButton()[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:54 IST" name="verifyWhetherUserIsAbleToClickRestButton" description="Validating the User can able to Reset the News List" finished-at="2026-06-19T23:07:57 IST" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserIsAbleToClickRestButton -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:57 IST" name="browserClose" finished-at="2026-06-19T23:07:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserIsAbleToClickRestButton status=SUCCESS method=ManageNewsTest.verifyWhetherUserIsAbleToClickRestButton()[pri:0, instance:testScripts.ManageNewsTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:57 IST" name="browserLaunch" finished-at="2026-06-19T23:07:59 IST" duration-ms="2013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="verifyWhetherUserIsAbleToSearchNews()[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:07:59 IST" name="verifyWhetherUserIsAbleToSearchNews" description="Validating the User can able to Search the News" finished-at="2026-06-19T23:08:04 IST" duration-ms="4842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserIsAbleToSearchNews -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testScripts.ManageNewsTest@210ab13f]" started-at="2026-06-19T23:08:04 IST" name="browserClose" finished-at="2026-06-19T23:08:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserIsAbleToSearchNews status=SUCCESS method=ManageNewsTest.verifyWhetherUserIsAbleToSearchNews()[pri:0, instance:testScripts.ManageNewsTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testScripts.ManageNewsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

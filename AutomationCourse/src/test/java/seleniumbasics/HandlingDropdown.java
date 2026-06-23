@@ -27,7 +27,9 @@ public class HandlingDropdown extends Base{
 	/* For Checkbox Selection */
 	public void verifyCheckBox() {
 		WebElement checkBox1 = driver.findElement(By.xpath("//input[@value='option-1']"));
+		System.out.println(checkBox1.isSelected());
 		checkBox1.click();
+		
 	}
 	
 	/* For RadioButton Selection */
